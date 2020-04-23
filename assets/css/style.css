@@ -41,7 +41,7 @@ a{
   color: #444;
   /*display: block;*/
   /*font-family: 'Kaushan Script', cursive;*/
-  font-family: Pacifico;
+  /*font-family: Pacifico;*/
 }
 .top-nav{
     height: 100%;
@@ -132,7 +132,7 @@ a{
     /*font-weight: 600;*/
     color: #555;
     /*font-family: 'Kaushan Script', cursive;*/
-    font-family: Pacifico;
+    /*font-family: Pacifico;*/
 }
 .top span:nth-child(2){
     display: block;
@@ -145,7 +145,7 @@ a{
     margin: 0 auto;
     font-weight: normal;
     color: #555;
-    font-family: Ubuntu;
+    /*font-family: Ubuntu;*/
     top: 280px;
     font-size: 25px;
 }
@@ -160,7 +160,7 @@ a{
     margin: 0 auto;
     font-weight: normal;
     color: #555;
-    font-family: Ubuntu;
+    /*font-family: Ubuntu;*/
     top: 330px;
     font-size: 25px;
 }
