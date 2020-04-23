@@ -6,10 +6,6 @@ html{
     background-image: url(/assets/bak.svg);
     /*background-size: 100%;*/
     background-position: center;
-    background-attachment: fixed;
-    margin: 0;
-    background-repeat: no-repeat;
-    background-size: cover;
     /*background-color: white;*/
     font-family: Ubuntu;
 }
