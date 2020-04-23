@@ -3,7 +3,7 @@ html,body,ul,li,div,header,nav,main,footer{
     padding: 0;
 }
 html{
-    background-image: url(/assets/back.png);
+    background-image: url(/assets/bak.svg);
     /*background-size: 100%;*/
     background-position: center;
     background-attachment: fixed;
@@ -22,7 +22,7 @@ a{
 #index-header{
     width: 100%;
     height: 75px;
-    background-color: #ffffff6e;
+    background-color: white;
     border-bottom: 1px solid #e7eaf1;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
@@ -107,7 +107,7 @@ a{
 .top{
     height: 440px;
     max-width: 1280px;
-    margin: 10px auto;
+    margin: -20px auto;
     background-image: url(/assets/lineart.png);
     color: #555;
     background-size: 1188px 219px;
@@ -117,7 +117,7 @@ a{
     /*border-bottom: 1px solid #e7eaf1;*/
     position: relative;
     z-index: -1;
-    background-color: #fffefe9e;
+    background-color: white;
 }
 .top svg{
   fill: blue;
@@ -189,7 +189,7 @@ a{
     height: auto;
     width: 720px;
     margin: 30px auto;
-    background-color: #ffffff9e;
+    background-color: white;
     border-radius: 3px;
     border: 1px solid #e7eaf1;
     -webkit-box-shadow: 0 1px 3px rgba(0,37,55,.06);
@@ -248,7 +248,7 @@ a{
   color: #555;
   margin-left: 10px;
   line-height: 27px;
-  background-color: #fafbfc9e;
+  background-color: #fafbfc;
   transition-duration: .5s;
   font-weight: 400;
 }
@@ -286,7 +286,7 @@ a{
   /*background-color: green;*/
 }
 .page-links{
-  background-color: #ffffff8c;
+  /*background-color: blue;*/
   height: 60px;
   width: 120px;
   border: 1px solid #e7eaf1;
@@ -321,11 +321,11 @@ a{
   border-top: 1px solid #e7eaf1;
   margin-top: 30px;
   text-align: center;
-  color: #ffa260;
+  color: #555;
   font-size: 13px;
 }
 #bottom span a{
-  color: rgb(251, 207, 93);
+  color: #555;
 }
 
 /*tags页面*/
@@ -334,8 +334,8 @@ a{
     display: block;
     height: auto;
     width: 720px;
-    margin: 50px auto 10px;
-    background-color: #ffffffa3;
+    margin: -70px auto 100px;
+    background-color: white;
     border-radius: 3px;
     border: 1px solid #e7eaf1;
     -webkit-box-shadow: 0 1px 3px rgba(0,37,55,.06);
