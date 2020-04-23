@@ -1,14 +1,12 @@
->layout: post
->
->title:  "Linux学习笔记【1】——学习Linux前需要了解的一些东西"
->
->date:   2020-04-23 13:14:35
->
->tags: linux
->
->color: 'rgb(154,133,255)'
->
->cover: '/assets/Linux1.png'
+---
+layout: post
+title:  "Linux学习笔记【1】"
+date:   2020-04-23 14:05:21 +0800
+tags: linux
+color: rgb(255,90,90)
+cover: '../assets/Linux1.png'
+subtitle: '学习Linux前需要了解的一些东西!'
+---
 
 # Linux学习笔记【1】——学习Linux前需要了解的一些东西
 
