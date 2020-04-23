@@ -20,7 +20,7 @@ webtitle: '辰轩的个人主页'
 bio: '欢迎关注'
 about: true
 aboutyou: '一个不想秃头的准程序员'
-portraits: '/assets/profile.jpg' # your portraits image file path
+portraits: '/assets/_1.jpg' # your portraits image file path
 
 # SNS
 SNS: true
