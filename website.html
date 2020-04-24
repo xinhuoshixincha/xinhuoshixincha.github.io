@@ -1,0 +1,24 @@
+---
+layout: default
+title: 常用网站
+page-title: Commonly used websites
+home-title: Quick Navigation.
+description:
+---
+
+{% include header.html %}
+{% include boot.html %}
+<main>
+    {% include title.html %}
+    <ul class="ex-list">
+        <li  class="fadeInUp animated">
+          {% for website in site.websites %}
+            <span class="tag-name" >
+                <a href="{{ website[1] }}">「&emsp;{{ website[0] }}&emsp;」</a>
+            </span>
+                </br>
+          {% endfor %}
+        </li>
+    </ul>
+</main>
+{% include footer.html %}
