@@ -60,8 +60,8 @@ pygmentsTheme: 'perldoc'
 
 # 友情链接
 friends:
-   Oh,no! I hava no friends!: ''
-  
+   Oh,no! I hava no friends' links!: ''  
+
 #常用网站
 websites:
   Baidu: 'https://www.baidu.com/'
