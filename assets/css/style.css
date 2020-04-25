@@ -8,10 +8,10 @@ html{
     background-position: center;
     /*background-color: white;*/
     font-family: Ubuntu;
-    transition: max-width 300ms linear;
+    /*transition: max-width 300ms linear;
     -o-transition:max-width 300ms linear;
     -moz-transition:max-width 300ms linear;
-    -webkit-transition:max-width 300ms linear;
+    -webkit-transition:max-width 300ms linear;*/
 }
 /*html::-webkit-scrollbar{
   display: none;
@@ -21,21 +21,7 @@ a{
 }
 
 .bigPic{display: none;}
-.pic02{
-  display: none;
-  position: absolute;
-  top: 0;
-  width: 800px;
-  /*height: 100%;*/
-  background:rgba(255, 255, 255, 0.678);
-  }
-  .pic02 img{
-    box-shadow:30px 30px 10px #33333394;
-    cursor: pointer;
-     z-index: 11;
-     max-width: 150%;
-     position: absolute;
-   }
+
 
 img
 {

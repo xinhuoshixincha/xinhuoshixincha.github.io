@@ -43,18 +43,3 @@ function showRight() {
 function goneRight() {
   rightTab.setAttribute("class","rotateOutDownRight self-animated");
 }
-
-$('img').on('click',function(){
-            var picSrc =  $(this).attr('src')
-            $('.pic02 img').attr('src',picSrc)
-            $('.pic02 img').css("top",$(this).offset().top)
-            $('.pic02 img').css("left","0")
-            $('.pic02 img').css("max-width","150%")
-            $('.pic02').css("max-width","150%") 
-            $('.pic02').show() 
-        })
-        $('.pic02').on('click',function(){
-            $('.pic02 img').css("top","0")
-            $('.pic02 img').css("left","0")
-            $('.pic02').hide() 
-        })
