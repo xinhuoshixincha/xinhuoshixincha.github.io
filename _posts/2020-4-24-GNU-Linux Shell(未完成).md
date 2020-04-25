@@ -5,7 +5,6 @@ subtitle: "未完待续"
 date:   2020-04-25 13:10:34 +0800
 tags: GNU/Linux
 color: rgb(3,212,0)
-cover: ''
 ---
 
 > GNU/linux 的默认shell是bash

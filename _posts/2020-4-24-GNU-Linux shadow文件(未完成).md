@@ -1,3 +1,12 @@
+---
+layout: post
+title:  "GNU/Liunx"
+subtitle: "未完待续"
+date:   2020-04-25 13:15:21 +0800
+tags: GNU/Linux
+color: rgb(255,189,90)
+---
+
 # GNU/Linux shadow文件
 
 **格式：**
