@@ -52,5 +52,7 @@ $('img').on('click',function(){
             $('.pic02').show() 
         })
         $('.pic02').on('click',function(){
+            $('.pic02 img').css("top","0")
+            $('.pic02 img').css("left","0")
             $('.pic02').hide() 
         })
