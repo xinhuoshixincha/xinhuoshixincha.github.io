@@ -46,7 +46,11 @@ function goneRight() {
 
 $('img').on('click',function(){
             var picSrc =  $(this).attr('src')
+            var picT = $(this).offset().top
+            var picL = $(this).offset().left
             $('.pic02 img').attr('src',picSrc)
+            $('.pic02 img').css("top",picT)
+            $('.pic02 img').css("left",picL)
             $('.pic02').show() 
         })
         $('.pic02').on('click',function(){

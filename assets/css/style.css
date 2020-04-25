@@ -28,8 +28,8 @@ a{
   .pic02 img{
     cursor: pointer;
      z-index: 11;
-     width: 300%;
-     height: 300%;
+     width: 300px;
+     height: 300px;
      position: absolute;
      top: 50%;
      margin-left: -150px;
