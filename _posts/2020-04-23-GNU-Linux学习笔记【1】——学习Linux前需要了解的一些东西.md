@@ -4,7 +4,7 @@ title:  "GNU/Linux学习笔记【1】"
 date:   2020-04-23 14:05:21 +0800
 tags: GNU/Linux
 color: rgb(255,90,90)
-cover: '../assets/GNU/Linux1.png'
+cover: '../assets/Linux1.png'
 subtitle: '学习GNU/Linux前需要了解的一些东西!'
 ---
 
