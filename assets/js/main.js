@@ -48,7 +48,7 @@ $('img').on('click',function(){
             var picSrc =  $(this).attr('src')
             $('.pic02 img').attr('src',picSrc)
             $('.pic02 img').css("top",$(this).offset().top)
-            $('.pic02 img').css("left",-$(this).offset().left/4)
+            $('.pic02 img').css("left","auto")
             $('.pic02').show() 
         })
         $('.pic02').on('click',function(){
