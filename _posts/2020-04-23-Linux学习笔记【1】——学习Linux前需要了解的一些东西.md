@@ -1,33 +1,32 @@
 ---
 layout: post
-title:  "Linux学习笔记【1】"
+title:  "GNU/Linux学习笔记【1】"
 date:   2020-04-23 14:05:21 +0800
-tags: linux
+tags: GNU/Linux
 color: rgb(255,90,90)
-cover: '../assets/Linux1.png'
-subtitle: '学习Linux前需要了解的一些东西!'
+cover: '../assets/GNU/Linux1.png'
+subtitle: '学习GNU/Linux前需要了解的一些东西!'
 ---
 
->首次接触Linux，边学习边写出了这一篇博客，一方面为了巩固自身的知识，另一方面希望可以给其他刚入门的朋友提供一点点帮助。如果有内容有错误或者不准确欢迎指正。
+>首次接触GNU/Linux，边学习边写出了这一篇博客，一方面为了巩固自身的知识，另一方面希望可以给其他刚入门的朋友提供一点点帮助。如果有内容有错误或者不准确欢迎指正。
 >本篇及系列文章均在CentOS虚拟机上展开。
 
-## 首先，什么是Linux？                 
-***
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Linux是一套*免费的、开放源代码的，并可以自由传播* 的类UNIX操作系统。　　
-　　看到这里大家也能明白一些Linux的特点了吧？没错，就是**免费、开放源码、自由传播**！所以Linux吸引了很多技术社区用户的加入，并对其不断地完善。由于其开放源码特性，我们也可以在使用中对其根据我们的习惯喜好进行更改。
-　　但是Linux不仅仅这一个特点，还有就是他的系统*稳定性以及安全性* 。就是因为稳定和安全，所以Linux成为了公司、企业等选择服务器操作系统的第一选择。有例为证：**现今世界500强的超级计算机都在用Linux！**
-　　所以，我们选择学习Linux，因为他的*免费、开源、稳定、安全*。
+## 首先，什么是GNU/Linux？                 
+ GNU/Linux是一套*免费的、开放源代码的，并可以自由传播* 的类UNIX操作系统。　　
+看到这里大家也能明白一些GNU/Linux的特点了吧？没错，就是**免费、开放源码、自由传播**！所以GNU/Linux吸引了很多技术社区用户的加入，并对其不断地完善。由于其开放源码特性，我们也可以在使用中对其根据我们的习惯喜好进行更改。
 
+但是GNU/Linux不仅仅这一个特点，还有就是他的系统*稳定性以及安全性* 。就是因为稳定和安全，所以GNU/Linux成为了公司、企业等选择服务器操作系统的第一选择。有例为证：**现今世界500强的超级计算机都在用GNU/Linux！**
+所以，我们选择学习GNU/Linux，因为他的*免费、开源、稳定、安全*。
 
 <br>
 <br>　
 
-## Linux目录 
+## GNU/Linux目录 
 ***
-和Windows操作系统的目录不一样，Linux的目录是呈树形的。
+和Windows操作系统的目录不一样，GNU/Linux的目录是呈树形的。
 ```mermaid
 graph TD
-A[/]-->B[bin]
+A[///]-->B[bin]
 A-->C[sbin]
 A-->D[etc]
 A-->E[dev]
@@ -38,9 +37,9 @@ A-->G[......]
 <br>
 <br>   
 
-## Linux用户
+## GNU/Linux用户
 ***
- Linux中分有两种用户：
+ GNU/Linux中分有两种用户：
  1. root用户：即系统的管理员用户，拥有最高权限。提示符为#。![root用户](https://img-blog.csdnimg.cn/20200307183732455.png)
  3. 普通用户：权限低。提示为$。             
 ![普通用户](https://img-blog.csdnimg.cn/20200307183816972.png)
@@ -49,22 +48,22 @@ A-->G[......]
 <br>
 <br>
 
-## Linux界面
+## GNU/Linux界面
 ***
-Linux拥有两种界面，图形界面类似于Windows，而文字界面就是我们以往对Linux的印象了。
+GNU/Linux拥有两种界面，图形界面类似于Windows，而文字界面就是我们以往对GNU/Linux的印象了。
 
-两种界面:看具体版本，有的Linux只有文字界面。
+两种界面:看具体版本，有的GNU/Linux只有文字界面。
 
 **图形界面：**
 
 ![图形界面](https://img-blog.csdnimg.cn/20200307184700695.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQzNzMwMTc0,size_16,color_FFFFFF,t_70)
 **文字界面：**
 ![文字界面](https://img-blog.csdnimg.cn/20200307184744488.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQzNzMwMTc0,size_16,color_FFFFFF,t_70)
-*在Linux中，我们常常使用文字界面，图形界面用的很少。*
+*在GNU/Linux中，我们常常使用文字界面，图形界面用的很少。*
 <br>
 <br>
 
-## Linux文件信息
+## GNU/Linux文件信息
 *[文件信息]:不知道这个名字起的贴切否=_= 
 ***
 先上文件来说明
@@ -91,7 +90,6 @@ x：可执行，第三位
 <br>
 <br>
 ## Shell命令
-***
 * #### 命令提示符
 ```linux
 [username@host ~]#
