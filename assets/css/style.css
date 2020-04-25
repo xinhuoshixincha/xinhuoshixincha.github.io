@@ -8,6 +8,10 @@ html{
     background-position: center;
     /*background-color: white;*/
     font-family: Ubuntu;
+    transition: max-width 300ms linear;
+    -o-transition:max-width 300ms linear;
+    -moz-transition:max-width 300ms linear;
+    -webkit-transition:max-width 300ms linear;
 }
 /*html::-webkit-scrollbar{
   display: none;
@@ -27,10 +31,6 @@ a{
   }
   .pic02 img{
     box-shadow:30px 30px 10px #33333394;
-    transition: max-width 300ms linear 500ms;
-    -o-transition:max-width 300ms linear 500ms;
-    -moz-transition:max-width 300ms linear 500ms;
-    -webkit-transition:max-width 300ms linear 500ms;
     cursor: pointer;
      z-index: 11;
      max-width: 150%;
