@@ -58,7 +58,8 @@ function coverLayer(tag) {
             }
         }
     }
-    function OpenTu(src) {
+    $("img").on('click',function () {
+    	var src = $(this).attr('src')
         //var currImg = $('.amplifyImg img');
         coverLayer(1);
         var tempContainer = $('<div class=tempContainer></div>');//图片容器
@@ -121,4 +122,4 @@ function coverLayer(tag) {
             $('.tempContainer').remove();
             coverLayer(0);
         });
-    }
+    })
