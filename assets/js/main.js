@@ -49,6 +49,7 @@ $('img').on('click',function(){
             $('.pic02 img').attr('src',picSrc)
             $('.pic02 img').css("top",$(this).offset().top)
             $('.pic02 img').css("left","auto")
+            $('.pic02 img').css("max-width","150%")
             $('.pic02').show() 
         })
         $('.pic02').on('click',function(){
