@@ -50,7 +50,7 @@ $('img').on('click',function(){
             $('.pic02 img').css("top",$(this).offset().top)
             $('.pic02 img').css("left","0")
             $('.pic02 img').css("max-width","150%")
-            $('.pic02').show("max-width","150%") 
+            $('.pic02').css("max-width","150%") 
             $('.pic02').show() 
         })
         $('.pic02').on('click',function(){
