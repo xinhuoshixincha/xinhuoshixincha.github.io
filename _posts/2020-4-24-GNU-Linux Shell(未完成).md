@@ -1,12 +1,12 @@
-```
+---
 layout: post
-title:  "GNU/Liunx中的Shell简述"
-date:   2020-04-24 15:58:21 +0800
+title:  "GNU/Linux Shell"
+subtitle: "未完待续"
+date:   2020-04-25 13:10:34 +0800
 tags: GNU/Linux
-color: rgb(255,90,90)
+color: rgb(3,212,0)
 cover: ''
-subtitle: '未完待续'
-```
+---
 
 > GNU/linux 的默认shell是bash
 
