@@ -50,7 +50,7 @@ $('img').on('click',function(){
             var picL = $(this).offset().left
             $('.pic02 img').attr('src',picSrc)
             $('.pic02 img').css("top",picT)
-            $('.pic02 img').css("left",picL/3)
+            $('.pic02 img').css("left",picL/6)
             $('.pic02').show() 
         })
         $('.pic02').on('click',function(){
