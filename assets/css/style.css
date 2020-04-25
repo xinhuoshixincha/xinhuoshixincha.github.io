@@ -26,6 +26,11 @@ a{
   background:rgba(255, 255, 255, 0.678);
   }
   .pic02 img{
+    box-shadow:30px 30px 10px #33333394;
+    transition: max-width 300ms linear 500ms;
+    -o-transition:max-width 300ms linear 500ms;
+    -moz-transition:max-width 300ms linear 500ms;
+    -webkit-transition:max-width 300ms linear 500ms;
     cursor: pointer;
      z-index: 11;
      max-width: 150%;
