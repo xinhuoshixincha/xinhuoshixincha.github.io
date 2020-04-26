@@ -359,6 +359,7 @@ img
             transition-duration: .4s;
     text-align: center;
     padding: 20px;
+    font-family: 华文楷体;
 }
 .ex-list li:hover{
     -webkit-box-shadow: 0 1px 10px #777;
