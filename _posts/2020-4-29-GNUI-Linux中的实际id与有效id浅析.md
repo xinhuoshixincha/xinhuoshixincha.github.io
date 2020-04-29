@@ -35,9 +35,12 @@ color: rgb(3,212,0)
 
 这里我就拿著名的passwd案例来说一下。
 
-我们都知道，Linux里面有这么一条命令：passwd，可以用来更改用户自己的密码（root用户可以更改其他用户的密码）。但是Linux是一种遵奉“文件皆一切”的操作系统，也就是说，要修改密码，必须要修改/etc/shadow文件的内容。然而，shadow文件并不对除了root用户外的用户开放![image-20200429173810896](C:\Users\dell\AppData\Roaming\Typora\typora-user-images\image-20200429173810896.png)
+我们都知道，Linux里面有这么一条命令：passwd，可以用来更改用户自己的密码（root用户可以更改其他用户的密码）。但是Linux是一种遵奉“文件皆一切”的操作系统，也就是说，要修改密码，必须要修改/etc/shadow文件的内容。然而，shadow文件并不对除了root用户外的用户开放
+
+![image-20200429173810896](C:\Users\dell\AppData\Roaming\Typora\typora-user-images\image-20200429173810896.png)
 
 所以普通用户并不可能能访问到shadow文件，更谈不上修改密码了。这要怎么办？这时候SUID就派上了用场，
+
 ![image-20200429173950029](C:\Users\dell\AppData\Roaming\Typora\typora-user-images\image-20200429173950029.png)
 
 如上图所示，passwd的访问权限跟正常的文件访问权限不一样，正常的最后一位是x或者-但他是s，这个s就是意味着所有者为文件设置了SUID，在访问这个文件的时候用户的EUID会同步为文件的SUID，也就是文件所有者的RUID。所以普通用户在用passwd命令的时候，权限其实是root的权限（部分）。

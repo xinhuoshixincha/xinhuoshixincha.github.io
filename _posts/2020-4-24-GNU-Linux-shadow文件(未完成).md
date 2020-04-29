@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "GNU/Liunx"
+title:  "GNU/Liunx Shadow"
 subtitle: "未完待续"
 date:   2020-04-25 13:15:21 +0800
 tags: GNU/Linux
