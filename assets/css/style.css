@@ -306,6 +306,7 @@ img
   border-radius: 3px;
   margin: 0 auto;
   padding: 0 10px;
+  font-family: 华文楷体;
 }
 .page-link{
   display: block;
@@ -648,6 +649,7 @@ img
   height: 40px;
   /*background-color: red;*/
   position: absolute;
+  font-family: 华文楷体;
 }
 #left-tab{
   position: absolute;
