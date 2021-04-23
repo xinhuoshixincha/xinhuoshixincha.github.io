@@ -2,7 +2,7 @@
 title: '辰轩的个人博客'
 description: '记录自己的学习生活'
 keywords: '热爱编程、热爱生活'
-url: 'https://abc.github.io' # your host
+url: 'https://chenxuan.work' # your host , abc.github.io
 
 # nav 中文字符空格：&emsp;
 nav: # 最佳体验 六个标签 且最好每个标签不超过4中文字
@@ -26,7 +26,7 @@ portraits: '/assets/touxiang.png' # your portraits image file path
 # SNS
 SNS: true
 SNS-icon: #['Facebook', 'weibo', 'qq', 'github', 'Dribbble', 'Twitter', 'instagram', 'weixin', 'Codepen']
-  mail: 'mailto:3157684388@qq.com'
+  mail: 'mailto:sunbowen@chenxuan.work'
   weixin: '/assets/wechat.png' # 你的微信二维码存放的地址
   qq: '/assets/qq.jpeg' # 你的qq二维码存放的地址 or http://wpa.qq.com/msgrd?v=3&uin='你的QQ号'&site=qq&menu=yes
   #github: ''
@@ -66,11 +66,9 @@ friends:
 websites:
   Baidu: 'https://www.baidu.com/'
   Google: 'https://www.google.com/'
-  CSDN: 'https://www.csdn.net/'
   GitHub: 'https://github.com/'
-  Google翻译: 'https://translate.google.cn/#view=home&op=translate&sl=en&tl=zh-CN'
   菜鸟教程: 'https://www.runoob.com/'
-  扇贝: 'https://www.shanbay.com/'
+  邮箱:'https://www.email.chenxuan.work'
 
 
 # 评论 最佳体验 在disqus、livere和Gitment之间三选一
