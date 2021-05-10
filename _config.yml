@@ -60,7 +60,7 @@ pygmentsTheme: 'perldoc'
 
 # 友情链接
 friends:
-   pumgking:'http://blog.pumgking.top/'
+   pumgking: 'http://blog.pumgking.top/'
 
 #常用网站
 websites:
